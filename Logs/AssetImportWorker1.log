@@ -15,7 +15,7 @@ C:/Users/anima/OneDrive/Documentos/GitHub_AbrilParraGómez/Parra_Videojuegos/Par
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64014
+64202
 Successfully changed project path to: C:/Users/anima/OneDrive/Documentos/GitHub_AbrilParraGómez/Parra_Videojuegos/Parra_Videojuegos
 C:/Users/anima/OneDrive/Documentos/GitHub_AbrilParraGómez/Parra_Videojuegos/Parra_Videojuegos
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/anima/OneDrive/Documentos/GitHub_AbrilParraGómez/Parra_Videojuegos/Par
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3168] Host "[IP] 192.168.5.231 [Port] 0 [Flags] 2 [Guid] 3435347984 [EditorId] 3435347984 [Version] 1048832 [Id] WindowsEditor(7,Anime-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11488] Host "[IP] 192.168.5.231 [Port] 0 [Flags] 2 [Guid] 2000686685 [EditorId] 2000686685 [Version] 1048832 [Id] WindowsEditor(7,Anime-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3168] Host "[IP] 192.168.5.231 [Port] 0 [Flags] 2 [Guid] 3435347984 [EditorId] 3435347984 [Version] 1048832 [Id] WindowsEditor(7,Anime-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11488] Host "[IP] 192.168.5.231 [Port] 0 [Flags] 2 [Guid] 2000686685 [EditorId] 2000686685 [Version] 1048832 [Id] WindowsEditor(7,Anime-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
-Refreshing native plugins compatible for Editor in 10.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003938 seconds.
-- Loaded All Assemblies, in  0.208 seconds
+Registered in 0.004784 seconds.
+- Loaded All Assemblies, in  0.212 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1744 ms
+Android Extension - Scanning For ADB Devices 1772 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.919 seconds
-Domain Reload Profiling: 2127ms
-	BeginReloadAssembly (64ms)
+- Finished resetting the current domain, in  1.948 seconds
+Domain Reload Profiling: 2159ms
+	BeginReloadAssembly (69ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
+		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (87ms)
-		LoadAssemblies (63ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (68ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (86ms)
-			TypeCache.Refresh (85ms)
-				TypeCache.ScanAssembly (76ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1920ms)
+	FinalizeReload (1948ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1887ms)
+		SetupLoadedEditorAssemblies (1916ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1806ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (1837ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (53ms)
+			ProcessInitializeOnLoadAttributes (51ms)
 			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -119,8 +119,8 @@ Domain Reload Profiling: 2127ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.496 seconds
-Refreshing native plugins compatible for Editor in 7.64 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.485 seconds
+Refreshing native plugins compatible for Editor in 6.18 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -128,47 +128,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.485 seconds
-Domain Reload Profiling: 979ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.505 seconds
+Domain Reload Profiling: 988ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (18ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (347ms)
-		LoadAssemblies (289ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (273ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (113ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (77ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (81ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (486ms)
+	FinalizeReload (505ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (390ms)
+		SetupLoadedEditorAssemblies (403ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (209ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 7.34 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 7.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5346 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 130 unused Assets / (2.1 MB). Loaded Objects now: 5778.
 Memory consumption went from 221.3 MB to 219.2 MB.
-Total: 5.884600 ms (FindLiveObjects: 0.373800 ms CreateObjectMapping: 0.086700 ms MarkObjects: 4.808700 ms  DeleteObjects: 0.614700 ms)
+Total: 8.036200 ms (FindLiveObjects: 0.475300 ms CreateObjectMapping: 0.304000 ms MarkObjects: 6.628600 ms  DeleteObjects: 0.627300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,28 +184,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 176955.234348 seconds.
-  path: Assets/_Project/Prefabs/caja abril parra.prefab
-  artifactKey: Guid(5ffdb4cf7101357478b3d4f08727ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/caja abril parra.prefab using Guid(5ffdb4cf7101357478b3d4f08727ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe4d2466e5ccebd122182f43678f7d9') in 0.206819 seconds
+  Time since last request: 177225.361469 seconds.
+  path: Assets/_Project/Prefabs/Abril Parra Gómez_Pisos Pintados (1).prefab
+  artifactKey: Guid(b8e348a2faa8417469b0826a9a1096f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Abril Parra Gómez_Pisos Pintados (1).prefab using Guid(b8e348a2faa8417469b0826a9a1096f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7ba9ad315009a945c8a400013e35d8') in 0.208106 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 58
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/_Project/Prefabs/Abril Parra Gómez_Lámpara sppnv (4).prefab
-  artifactKey: Guid(23b1d18695bcc6147812b74249e58fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Abril Parra Gómez_Lámpara sppnv (4).prefab using Guid(23b1d18695bcc6147812b74249e58fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6857c3480e64f902c849041cc888fc') in 0.203189 seconds
+  path: Assets/_Project/Prefabs/DerechoT_Abril Parra.prefab
+  artifactKey: Guid(22ca290b6372c7443b2b3e4a7ae99c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/DerechoT_Abril Parra.prefab using Guid(22ca290b6372c7443b2b3e4a7ae99c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5940dba69d710d87bce855b7d39df660') in 0.296017 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 65
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (2.1 MB). Loaded Objects now: 5786.
-Memory consumption went from 104.8 MB to 102.8 MB.
-Total: 5.456800 ms (FindLiveObjects: 0.358500 ms CreateObjectMapping: 0.083600 ms MarkObjects: 4.566400 ms  DeleteObjects: 0.447800 ms)
+Unloading 20 unused Assets / (2.1 MB). Loaded Objects now: 5787.
+Memory consumption went from 105.0 MB to 103.0 MB.
+Total: 6.557200 ms (FindLiveObjects: 0.423100 ms CreateObjectMapping: 0.180300 ms MarkObjects: 5.493400 ms  DeleteObjects: 0.459900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
