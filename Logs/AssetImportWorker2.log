@@ -1,0 +1,327 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 64662 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/anima/OneDrive/Documentos/GitHub_AbrilParraGómez/Parra_Videojuegos/Parra_Videojuegos
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56508
+Successfully changed project path to: C:/Users/anima/OneDrive/Documentos/GitHub_AbrilParraGómez/Parra_Videojuegos/Parra_Videojuegos
+C:/Users/anima/OneDrive/Documentos/GitHub_AbrilParraGómez/Parra_Videojuegos/Parra_Videojuegos
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37312] Host "[IP] 192.168.5.231 [Port] 0 [Flags] 2 [Guid] 120629996 [EditorId] 120629996 [Version] 1048832 [Id] WindowsEditor(7,Anime-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [37312] Host "[IP] 192.168.5.231 [Port] 0 [Flags] 2 [Guid] 120629996 [EditorId] 120629996 [Version] 1048832 [Id] WindowsEditor(7,Anime-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 7.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/anima/OneDrive/Documentos/GitHub_AbrilParraGómez/Parra_Videojuegos/Parra_Videojuegos/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24340 MB
+    Driver:   31.0.15.2647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004283 seconds.
+- Loaded All Assemblies, in  0.185 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 154 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 495ms
+	BeginReloadAssembly (59ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (73ms)
+		LoadAssemblies (58ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (71ms)
+			TypeCache.Refresh (71ms)
+				TypeCache.ScanAssembly (63ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (210ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (48ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.375 seconds
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 808ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (70ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (435ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5299 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 130 unused Assets / (2.1 MB). Loaded Objects now: 5731.
+Memory consumption went from 216.4 MB to 214.2 MB.
+Total: 5.480200 ms (FindLiveObjects: 0.276200 ms CreateObjectMapping: 0.124600 ms MarkObjects: 4.583000 ms  DeleteObjects: 0.495800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105098.145395 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Caja/Caja_Texturas/mat.mat
+  artifactKey: Guid(804feda962686b246930d871c9dfb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Caja/Caja_Texturas/mat.mat using Guid(804feda962686b246930d871c9dfb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14d50ed5ce49bdb5dae6f130e3789cc') in 0.042712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.985900 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Lampara/Lampara_Textura/lambert1_Base_color_1001.png
+  artifactKey: Guid(9e0e0c9132a39cd4bbf13d6c03123b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Lampara/Lampara_Textura/lambert1_Base_color_1001.png using Guid(9e0e0c9132a39cd4bbf13d6c03123b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906d03408f3d4366249a744c97c3e47c') in 0.017101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Lampara/Lampara_Textura/lambert1_Mixed_AO_1001.png
+  artifactKey: Guid(7655971bb5a159945a077cab93436137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Lampara/Lampara_Textura/lambert1_Mixed_AO_1001.png using Guid(7655971bb5a159945a077cab93436137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9196d322c94c28b2e63d465b7867295') in 0.014521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.277881 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Lampara/Lampara_Textura
+  artifactKey: Guid(d8b9e8bb702e7f14491951f80a5275f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Lampara/Lampara_Textura using Guid(d8b9e8bb702e7f14491951f80a5275f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f553b3aed7760fb864d5c97ef15d3898') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.801666 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Lampara/Lampara_Textura/mat.mat
+  artifactKey: Guid(5b9a8f2a850122746893c90b1efe663e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Lampara/Lampara_Textura/mat.mat using Guid(5b9a8f2a850122746893c90b1efe663e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232f616d8e3779246510c9316e4667e7') in 0.004739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.772867 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Lampara/Abril Parra Gómez_Concept Lámpara (1).jpg
+  artifactKey: Guid(96e13ef393498984bb97192200da32bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Lampara/Abril Parra Gómez_Concept Lámpara (1).jpg using Guid(96e13ef393498984bb97192200da32bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1a16731b3fc8f83a0c98a75e3277e2') in 0.007106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.733092 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Piso/Abril Parra Gómez_Piedra Concept 1.png
+  artifactKey: Guid(06e71d71b99c59f4880d97e220323ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Piso/Abril Parra Gómez_Piedra Concept 1.png using Guid(06e71d71b99c59f4880d97e220323ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd824e1a149ef76a34ae40cccc171e0ae') in 0.013247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 54.245816 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Piso/Piso_Textura
+  artifactKey: Guid(10c0d3dcfcfe3a846aaef9d73e0c5e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Piso/Piso_Textura using Guid(10c0d3dcfcfe3a846aaef9d73e0c5e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758f7d351478c3526bf96e84ba8386cb') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101853 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Piso/Piso_Textura/lambert1_Base_color_1001.png
+  artifactKey: Guid(fa71bd20316196b428ef602482565f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Piso/Piso_Textura/lambert1_Base_color_1001.png using Guid(fa71bd20316196b428ef602482565f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6814f278891d582c909d2a6e5af852f9') in 0.007692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Piso/Piso_Textura/lambert1_Normal_1001.png
+  artifactKey: Guid(aacc853838e364a48bec913920985bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Piso/Piso_Textura/lambert1_Normal_1001.png using Guid(aacc853838e364a48bec913920985bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06d1d8d86f5d33ed8cca7d7e680b054') in 0.009398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.785255 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Piso/Piso_Textura/mat.mat
+  artifactKey: Guid(fa93a0b41712516408a51f8e2f0bf663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Piso/Piso_Textura/mat.mat using Guid(fa93a0b41712516408a51f8e2f0bf663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8618ca3a9a12101812401c3b82541d77') in 0.004428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 43.652949 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Torreta01/c.jpeg
+  artifactKey: Guid(b978e5c00fa772044ab1b2d8e10873ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Torreta01/c.jpeg using Guid(b978e5c00fa772044ab1b2d8e10873ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd489fe0b51941ac84bf890e0db443c8c') in 0.010040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.167856 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Torreta01/Torrete_Textura
+  artifactKey: Guid(ce1d7c2fd48465b4097919d689814d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Torreta01/Torrete_Textura using Guid(ce1d7c2fd48465b4097919d689814d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345df2df7e6c1cb98261b4963e6a62dd') in 0.000430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.110580 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Torreta01/Torrete_Textura/2.mat
+  artifactKey: Guid(c8a46c6fa5b67ad439827db86210c4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Torreta01/Torrete_Textura/2.mat using Guid(c8a46c6fa5b67ad439827db86210c4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed051d0d3fb62dfbe8dfa29921be1f6c') in 0.021117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Torreta01/Torrete_Textura/1001_Normal.png
+  artifactKey: Guid(d0abe9edd9f9a2a4c9def4d31143ff4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Torreta01/Torrete_Textura/1001_Normal.png using Guid(d0abe9edd9f9a2a4c9def4d31143ff4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411937e5969eb7e923be9376d4a77239') in 0.008590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Torreta01/Torrete_Textura/1001_Metallic.png
+  artifactKey: Guid(f7ea64b0407c33a4e9ac21be18995a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Torreta01/Torrete_Textura/1001_Metallic.png using Guid(f7ea64b0407c33a4e9ac21be18995a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7690bfc39399f85887652c098102eae6') in 0.007151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Project/Art/Modelos/Prop_Torreta01/Torrete_Textura/1002_Height.png
+  artifactKey: Guid(84c1cd0965e212d4bbe5474740eb060c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Art/Modelos/Prop_Torreta01/Torrete_Textura/1002_Height.png using Guid(84c1cd0965e212d4bbe5474740eb060c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2200b455bed7c0befa0c47d5c2d118f9') in 0.007393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operaci�n de E/S se anul� por una salida de subproceso o por una solicitud de aplicaci�n.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
